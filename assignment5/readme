@@ -1,0 +1,21 @@
+Uncompress the tar file and go to the xv6 folder
+
+To run the xv6 OS, execute
+$ make qemu-nox
+
+To clean the folder, execute
+$ make clean
+
+For part A, you need to uncomment two things in the "syscall.c" file. 
+This is written this way in order to keep the outputs of parts B and C human readable.
+
+For part B, execute
+$ mydate
+in the xv6 terminal
+
+For part C, execute
+$ mypgtPrint 
+in the xv6 terminal
+
+For part C, in order to see the results of local and global arrays, go to mypgtPrint.c and make the appropriate changes.
+Instructions for this are provided in the file itself.
